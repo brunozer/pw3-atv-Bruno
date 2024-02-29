@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+
+.cardBook {
+  padding: 5px;
+  background-color: #aaa9a90f;
+  width: 70%; 
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.contentWrapper {
+  display: flex;
+}
+
+.imagemLivro {
+  max-width: 250px;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.105);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; 
+}
+
+.imagemLivro:hover {
+  transform: scale(1.2); 
+}
+.bookInfo {
+  margin-left: 20px; 
+}
+
+.botao {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.descricao {
+  max-width: 600px; 
+  margin: 20px auto; 
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  line-height: 1.5;
+  text-align: justify; 
+}
+
+.botao:hover {
+  background-color: #0056b3;
+}
+
+.paragrafoLivro {
+  font-size: 12px;
+ opacity: 0.5;
+}
+
+.titulo {
+  font-family: Arial, sans-serif; 
+  font-size: 24px; 
+  font-weight: bold; 
+  margin-bottom: 10px; 
+}
+
+.autor{
+  font-family: Arial, sans-serif; 
+  font-size: 18px; 
+  margin-bottom: 20px; 
+}
+
+.separador {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px; 
+}
